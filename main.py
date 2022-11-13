@@ -6,7 +6,7 @@ screen=Screen()
 screen.setup(width=600,height=600)
 screen.tracer(0)
 # screen.bgcolor('black')
-screen.title('My Screen Game')
+screen.title('My Screen Game!')
 
 snake=Snake()
 game_is_on=True
