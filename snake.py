@@ -11,7 +11,7 @@ class Snake:
           new_segment.penup()
           new_segment.goto(position)
           self.segments.append(new_segment)
-          print(position)
+          print(position,'this is position of turtles')
     def move(self):
         for seg_num in range(len(self.segments)-1,0,-1):
             new_x=self.segments[seg_num-1].xcor()
